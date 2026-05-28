@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   const toggleBtn = document.getElementById('theme-toggle');
-  if (!toggleBtn) return; // Защита: если кнопки нет на странице, скрипт не сломается
+  if (!toggleBtn) return; 
 
   const htmlEl = document.documentElement;
 
